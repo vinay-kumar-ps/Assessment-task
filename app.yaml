@@ -1,0 +1,15 @@
+server:
+  port: ":8080"
+
+logging:
+  level: "DEBUG"
+
+postgres:
+  user: "user"
+  password: "p@assword"
+  host: "localhost"
+  port: "5432"
+  dbname: "cryptodata"
+
+coinmarketcap:
+  api_key: "your_coinmarketcap_api_key"
